@@ -46,8 +46,10 @@ Step 6: (Optional) Run tor as daemon. (Requires absolute paths instead of $HOME.
 
 Step 6: Add the relevant files to redbean.
 
-```zip redbean.com dump`
-`zip -d dump redbean.com # To remove dump.```
+```
+zip redbean.com dump
+zip -d dump redbean.com # To remove dump.
+```
 
 Step 7: Run the server!
 ```
