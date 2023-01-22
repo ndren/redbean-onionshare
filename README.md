@@ -44,20 +44,20 @@ Step 6: (Optional) Run tor as daemon. (Requires absolute paths instead of $HOME.
 
 `RunAsDaemon 1 # Could also use --runasdaemon 1.`
 
-Step 6: Add the relevant files to redbean.
+Step 7: Add the relevant files to redbean.
 
 ```
 zip redbean.com dump
 zip -d dump redbean.com # To remove dump.
 ```
 
-Step 7: Run the server!
+Step 8: Run the server!
 ```
 ./redbean -vv
 tor -f torrc
 ```
 
-Step 8: See if it worked!
+Step 9: See if it worked!
 ```
 torbrowser-launcher
 # Open the URL stored in hidden_service/hostname.
